@@ -69,3 +69,20 @@ Le dossier "release" contient deux options de manifest:
 Vos amis n'auront qu'à ajouter ce manifest.xml dans Word pour installer l'add-in qui pointera vers votre déploiement Vercel. Ainsi, ils utiliseront tous votre instance de l'application hébergée sur Vercel plutôt que de devoir l'héberger eux-mêmes ou se connecter à une version locale.
 
 Cette approche est idéale pour partager avec un groupe d'amis car Vercel offre gratuitement une bonne bande passante pour les projets personnels.
+
+
+
+
+J'ai modifié le fichier manifest.xml comme demandé. Toutes les URLs ont été mises à jour pour pointer vers votre application déployée sur Vercel:
+
+1. Les URLs d'icônes (16x16, 32x32, 80x80)
+2. La localisation source (SourceLocation)
+3. Les URLs de commandes et de la taskpane
+
+Maintenant, votre fichier manifest.xml est prêt à être partagé avec vos amis. Ils pourront l'ajouter à Word et accéder à votre application hébergée sur Vercel à l'adresse https://ia-in-word.vercel.app.
+
+Pour que vos amis puissent utiliser votre add-in, ils devront:
+1. Ouvrir Word
+2. Aller dans l'onglet "Insertion" > "Add-ins" ou "Modules complémentaires" 
+3. Sélectionner "Mes Add-ins" > "Charger un add-in personnalisé"
+4. Parcourir et sélectionner le fichier manifest.xml que vous leur aurez envoyé

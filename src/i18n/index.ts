@@ -258,7 +258,7 @@ const messages = {
 
 export const i18n = createI18n({
   legacy: false,
-  locale: localStorage.getItem('localLanguage') || 'en',
-  fallbackLocale: 'zh-cn',
+  locale: localStorage.getItem('localLanguage') || 'fr',
+  fallbackLocale: 'fr',
   messages
 })

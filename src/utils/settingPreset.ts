@@ -99,7 +99,7 @@ export const settingPreset: Record<SettingNames, ISettingOption> = {
     optionList: optionLists.apiList
   },
   localLanguage: {
-    ...inputSetting('en'),
+    ...inputSetting('fr'),
     type: 'select',
     optionList: optionLists.localLanguageList,
     saveFunc: (value: string) => {
@@ -108,7 +108,7 @@ export const settingPreset: Record<SettingNames, ISettingOption> = {
     }
   },
   replyLanguage: {
-    ...inputSetting('English'),
+    ...inputSetting('Français'),
     type: 'select',
     optionList: optionLists.replyLanguageList
   },

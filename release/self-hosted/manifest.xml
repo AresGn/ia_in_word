@@ -14,10 +14,10 @@
   <!--Version. Updates from the store only get triggered if there is a version change. -->
   <Version>1.0.0.0</Version>
   <ProviderName>Kuingsmile</ProviderName>
-  <DefaultLocale>en-US</DefaultLocale>
+  <DefaultLocale>fr-FR</DefaultLocale>
   <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
   <DisplayName DefaultValue="Word GPT" />
-  <Description DefaultValue="IA add in for Word"/>
+  <Description DefaultValue="Module complémentaire IA pour Word"/>
 
   <!-- Icon for your add-in. Used on installation screens and the add-ins dialog. -->
   <IconUrl DefaultValue="https://ia-in-word.vercel.app/assets/icon-32.png" />
@@ -130,14 +130,14 @@
       </bt:Urls>
       <!-- ShortStrings max characters==125. -->
       <bt:ShortStrings>
-        <bt:String id="GetStarted.Title" DefaultValue="Get started with chatGPT!" />
+        <bt:String id="GetStarted.Title" DefaultValue="Commencer avec l'IA!" />
         <bt:String id="CommandsGroup.Label" DefaultValue="GPT" />
         <bt:String id="TaskpaneButton.Label" DefaultValue="GPT Plus" />
       </bt:ShortStrings>
       <!-- LongStrings max characters==250. -->
       <bt:LongStrings>
-        <bt:String id="GetStarted.Description" DefaultValue="Your sample add-in loaded successfully. Go to the HOME tab and click the 'Show Taskpane' button to get started." />
-        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to Show a Taskpane" />
+        <bt:String id="GetStarted.Description" DefaultValue="Votre module complémentaire est chargé avec succès. Allez dans l'onglet ACCUEIL et cliquez sur le bouton 'Afficher le volet' pour commencer." />
+        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Cliquez pour afficher le volet" />
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>

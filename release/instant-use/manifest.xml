@@ -14,10 +14,10 @@
   <!--Version. Updates from the store only get triggered if there is a version change. -->
   <Version>1.0.0.0</Version>
   <ProviderName>Kuingsmile</ProviderName>
-  <DefaultLocale>en-US</DefaultLocale>
+  <DefaultLocale>fr-FR</DefaultLocale>
   <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
   <DisplayName DefaultValue="GPT Plus" />
-  <Description DefaultValue="A chatGPT add in for Word, enables you to work with AI"/>
+  <Description DefaultValue="Un module complémentaire d'IA pour Word, vous permettant de travailler avec l'intelligence artificielle"/>
 
   <!-- Icon for your add-in. Used on installation screens and the add-ins dialog. -->
   <IconUrl DefaultValue="https://word.msq.pub/assets/icon-32.png" />
@@ -129,14 +129,14 @@
       </bt:Urls>
       <!-- ShortStrings max characters==125. -->
       <bt:ShortStrings>
-        <bt:String id="GetStarted.Title" DefaultValue="Get started with chatGPT!" />
+        <bt:String id="GetStarted.Title" DefaultValue="Commencer avec l'IA!" />
         <bt:String id="CommandsGroup.Label" DefaultValue="GPT" />
         <bt:String id="TaskpaneButton.Label" DefaultValue="GPT Plus" />
       </bt:ShortStrings>
       <!-- LongStrings max characters==250. -->
       <bt:LongStrings>
-        <bt:String id="GetStarted.Description" DefaultValue="Your add-in loaded successfully. Go to the HOME tab and click the 'GPT Plus' button to get started." />
-        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to Show GPT Plus" />
+        <bt:String id="GetStarted.Description" DefaultValue="Votre module complémentaire est chargé avec succès. Allez dans l'onglet ACCUEIL et cliquez sur le bouton 'GPT Plus' pour commencer." />
+        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Cliquez pour afficher GPT Plus" />
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
