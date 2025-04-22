@@ -1,13 +1,13 @@
-# Guide pour le site web de l'add-in Word GPT Plus
+# Guide pour le site web de l'add-in WordMagician
 
-Ce document décrit la structure et le contenu recommandés pour votre site web d'une seule page qui expliquera l'add-in Word GPT Plus à vos amis.
+Ce document décrit la structure et le contenu recommandés pour votre site web d'une seule page qui expliquera l'add-in WordMagician à vos amis.
 
 ## Structure du site
 
 Votre site devrait comporter les sections suivantes :
 
 1. **En-tête / Bannière** - Titre et brève description
-2. **Présentation de l'add-in** - Ce qu'est Word GPT Plus et ses avantages
+2. **Présentation de l'add-in** - Ce qu'est WordMagician et ses avantages
 3. **Téléchargement** - Bouton pour télécharger le fichier manifest.xml
 4. **Guide d'installation** - Instructions pas à pas avec captures d'écran
 5. **Fonctionnalités principales** - Explication des fonctions essentielles
@@ -21,7 +21,7 @@ Votre site devrait comporter les sections suivantes :
 
 ```html
 <header>
-  <h1>Word GPT Plus</h1>
+  <h1>WordMagician</h1>
   <p>L'intelligence artificielle au service de votre rédaction dans Microsoft Word</p>
   <div class="cta-button">
     <a href="#download">Télécharger maintenant</a>
@@ -34,7 +34,7 @@ Votre site devrait comporter les sections suivantes :
 Cette section doit expliquer simplement ce qu'est l'add-in et ses avantages.
 
 **Contenu recommandé :**
-- Word GPT Plus est un module complémentaire pour Microsoft Word qui intègre la puissance de l'IA directement dans votre traitement de texte.
+- WordMagician est un module complémentaire pour Microsoft Word qui intègre la puissance de l'IA directement dans votre traitement de texte.
 - Il vous permet de générer du texte, améliorer votre style, traduire du contenu, résumer des documents et bien plus, directement depuis l'interface de Word.
 - Compatible avec plusieurs API d'IA (Gemini, Together, OpenRouter) pour vous donner le choix de l'IA qui vous convient le mieux.
 - Interface entièrement en français et intuitive.
@@ -70,7 +70,7 @@ Instructions détaillées avec captures d'écran pour :
    - Cliquez sur "Ouvrir" ou "OK"
 
 4. **Vérifier l'installation**
-   - L'add-in Word GPT Plus devrait apparaître dans le ruban de Word, généralement sous l'onglet "Accueil"
+   - L'add-in WordMagician devrait apparaître dans le ruban de Word, généralement sous l'onglet "Accueil"
    - Cliquez sur son icône pour ouvrir le volet de l'add-in
 
 ### 5. Fonctionnalités principales
@@ -161,7 +161,7 @@ R : L'interface est en français par défaut. Vous pouvez changer la langue dans
 
 ```html
 <footer>
-  <p>Word GPT Plus est un projet open source basé sur <a href="https://github.com/Kuingsmile/word-GPT-Plus" target="_blank">word-GPT-Plus</a>.</p>
+  <p>WordMagician est un projet open source basé sur <a href="https://github.com/Kuingsmile/word-GPT-Plus" target="_blank">word-GPT-Plus</a>.</p>
   <p>Pour toute question ou support : <a href="mailto:votre-email@example.com">votre-email@example.com</a></p>
   <p>© 2023 Votre Nom. Tous droits réservés.</p>
 </footer>
@@ -337,6 +337,6 @@ document.querySelector('.download-button a').addEventListener('click', () => {
 
 ## Conclusion
 
-En suivant ces recommandations, vous créerez un site web explicatif complet et facile à comprendre qui permettra à vos amis d'installer et d'utiliser efficacement l'add-in Word GPT Plus. N'oubliez pas d'ajouter suffisamment de captures d'écran pour rendre les instructions visuelles et plus faciles à suivre.
+En suivant ces recommandations, vous créerez un site web explicatif complet et facile à comprendre qui permettra à vos amis d'installer et d'utiliser efficacement l'add-in WordMagician. N'oubliez pas d'ajouter suffisamment de captures d'écran pour rendre les instructions visuelles et plus faciles à suivre.
 
 Le site devrait rester simple mais efficace, avec toutes les informations nécessaires présentées de manière claire et accessible. Bonne création ! 
